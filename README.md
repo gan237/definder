@@ -1,6 +1,8 @@
 # When Truth is Efficient: Analysing Concurrency
 
-This repo houses most of the benchmarks (148 out of 175) used in the evaluation section of the ISSTA '15 paper titled, "When Truth is Efficient: Analysing Concurrency". We were able to run ISP with required number of processes on 160 benchmarks; and, the repo has those benchmarks for which both DEFINDER and MPI2CSP were able to generate correct intermediate files. 
+This repo houses most of the benchmarks (148 out of 175) used in the evaluation section of the ISSTA '15 paper titled, "When Truth is Efficient: Analysing Concurrency". We were able to run ISP with required number of processes on 160 benchmarks; and, the repo has those benchmarks for which both DEFINDER and MPI2CSP were able to generate correct intermediate files.
+
+In case there is a problem with git-lfs, a snapshot of the repo is available for download at https://www.dropbox.com/s/qdwbl6u3v9miqhh/definder.tar.lrz?dl=0.
 
 The benchmarks.list file lists the names and number of processes for which the benchmarks were run under ISP. The repo has three compressed files that contain the outputs of ISP, MPI2CSP, and DEFINDER, respectively. The datafiles in the tarball are named after the entries in benchmarks.list.
 
