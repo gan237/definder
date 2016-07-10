@@ -14,7 +14,7 @@ To download the benchmark files, you will need the git lfs extension [https://gi
     
 You will need the `lrzip` tool [https://github.com/ckolivas/lrzip] to extract the downloaded files. To untar a tarball, just do `lrzuntar <file.lrz>`. This should generate a directory containing the ISP / MPI2CSP / DEFINDER output.
 
-The output files of DEFINDER serve as inputs to **lingeling** [http://fmv.jku.at/lingeling/]. The output files of MPI2CSP serve as inputs to `FDR3` [https://www.cs.ox.ac.uk/projects/fdr/]. We also found the runsolver tool [http://www.cril.univ-artois.fr/~roussel/runsolver/] handy when running the benchmarks.
+The output files of DEFINDER serve as inputs to **lingeling** [http://fmv.jku.at/lingeling/]. The output files of MPI2CSP serve as inputs to **FDR3** [https://www.cs.ox.ac.uk/projects/fdr/]. We also found the runsolver tool [http://www.cril.univ-artois.fr/~roussel/runsolver/] handy when running the benchmarks.
 
 The (modified) ISP output we generated is given as reference: it serves as a easily parseable inteermediate form that can be used to compare DEFINDER with other/future tools from the community.
 
